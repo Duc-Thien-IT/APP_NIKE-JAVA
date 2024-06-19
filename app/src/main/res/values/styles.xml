@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CustomToggleButton">
+        <item name="android:background">@drawable/toggle_button</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+    </style>
+
+    <style name="ButtonNoBorder" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button_no_border</item>
+    </style>
+
+</resources>
